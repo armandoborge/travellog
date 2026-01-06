@@ -19,11 +19,17 @@
 }
 
 .HomeContent h1{
-    font-weight: 300;
+    font-weight: 500;
     font-size: 45px;
     margin-top: 0;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     color: var(--color-polar);
+}
+
+.Description {
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 700px;
 }
 
 .HomeContent a{

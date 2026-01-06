@@ -45,7 +45,7 @@ const home = (props) => {
         <div className={styles.Home} style={homeBackgroundStyles}>
             <div className={homeContentClasses.join(' ')}>
                 <h1>{process.env.REACT_APP_APP_NAME}</h1>
-                <div dangerouslySetInnerHTML={{__html: process.env.REACT_APP_HOME_DESC}}></div>
+                <div className={styles.Description} dangerouslySetInnerHTML={{__html: process.env.REACT_APP_HOME_DESC}}></div>
                 <ul className={styles.Links}>
                     {homeLinks}
                 </ul>
